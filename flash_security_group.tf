@@ -7,7 +7,7 @@ resource "aws_security_group" "flask_sg" {
     from_port   = 5000
     to_port     = 5000
     protocol    = "tcp"
-    cidr_blocks = ["0.0.0.0/0"]  # Public access
+    cidr_blocks = ["0.0.0.0/0"] # Public access
   }
 
   ingress {

@@ -8,5 +8,5 @@ variable "instance_type" {
 
 variable "key_name" {
   description = "Existing EC2 key pair name"
-  default = "terraform"
+  default     = "terraform"
 }

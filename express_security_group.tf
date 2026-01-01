@@ -8,7 +8,7 @@ resource "aws_security_group" "express_sg" {
     from_port   = 3000
     to_port     = 3000
     protocol    = "tcp"
-    cidr_blocks = ["0.0.0.0/0"]  # Public access
+    cidr_blocks = ["0.0.0.0/0"] # Public access
   }
 
   ingress {
